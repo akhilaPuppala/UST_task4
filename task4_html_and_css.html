@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MST Technology - Educational Courses</title>
+  <style>
+    /* General Body Styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f4f6;
+      color: #333;
+    }
+
+    /* Header Styling */
+    header {
+      background-image: url('header-bg.jpg'); /* Add a header background image */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 3em 0;
+    }
+
+    .header-content h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #ffdd57; /* Distinct color for "MST Technology" */
+    }
+
+    .header-content p {
+      font-size: 1.2em;
+      color: #f1f1f1; /* Light gray for tagline to add contrast */
+    }
+
+    .explore-btn {
+      background-color: #ff5722;
+      color: white;
+      padding: 0.7em 1.5em;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 1em;
+    }
+
+    .explore-btn:hover {
+      background-color: #e64a19;
+    }
+
+    /* Course Section */
+    .courses {
+      padding: 2em;
+      text-align: center;
+      background-color: #ffffff;
+    }
+
+    .courses h2 {
+      font-size: 2em;
+      color: #333;
+    }
+
+    .course-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 1.5em;
+      margin-top: 1em;
+    }
+
+    /* Individual Course Card */
+    .course {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      padding: 1em;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .course img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .course h3 {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 0.5em;
+    }
+
+    .course p {
+      color: #777;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1em;
+      margin-top: 0.5em;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .course:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      margin-top: 2em;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+
+    footer a {
+      color: #ff5722;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>MST Technology</h1>
+      <p>Master programming with our expert-led courses!</p>
+      <button class="explore-btn">Explore Courses</button>
+    </div>
+  </header>
+
+  <section class="courses">
+    <h2>Our Popular Courses</h2>
+    <div class="course-list">
+      <div class="course">
+        <img src="java.jpg" alt="Java Course">
+        <h3>Java Programming</h3>
+        <p>Price: ₹8000</p>
+        <button>Enroll Now</button>
+      </div>
+      <div class="course">
+        <img src="springboot.jpg" alt="Spring Boot Course">
+        <h3>Spring Boot</h3>
+        <p>Price: ₹9500</p>
+        <button>Enroll Now</button>
+      </div>
+      <div class="course">
+        <img src="python.jpg" alt="Python Course">
+        <h3>Python Programming</h3>
+        <p>Price: ₹7000</p>
+        <button>Enroll Now</button>
+      </div>
+      <div class="course">
+        <img src="cplusplus.jpg" alt="C++ Course">
+        <h3>C++ Programming</h3>
+        <p>Price: ₹6000</p>
+        <button>Enroll Now</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 MST Technology. All Rights Reserved | Follow us on 
+      <a href="#">Facebook</a>, 
+      <a href="#">Twitter</a>, 
+      <a href="#">LinkedIn</a>
+    </p>
+  </footer>
+</body>
+</html>
